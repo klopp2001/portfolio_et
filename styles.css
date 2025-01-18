@@ -1,11 +1,75 @@
 .main {
   display: flex;
   flex-direction: column;
-  width: 100vh;
-  height: 100vh;
   margin: 0 auto;
   gap: 5px;
+  position: relative;
 }
+
+.amlin__link {
+  position: absolute;
+  /* left: 120px;
+  top: 255px; */
+  left: 12%;
+  top: 39%;
+}
+
+.panov__link {
+  position: absolute;
+  /* left: 120px;
+  top: 255px; */
+  right: 16%;
+  top: 40%;
+}
+
+.nestor__link {
+  position: absolute;
+  /* left: 120px;
+  top: 255px; */
+  left: 32%;
+  top: 78%;
+}
+
+.video__sphere {
+  position: absolute;
+  /* left: 120px;
+  top: 255px; */
+  right: 32%;
+  top: 92%;
+}
+
+.video__balenciaga {
+  position: absolute;
+  /* left: 120px;
+  top: 255px; */
+  right: 32%;
+  bottom: 7%;
+}
+
+.video__mucler {
+  position: absolute;
+  /* left: 120px;
+  top: 255px; */
+  right: 32%;
+  bottom: 6%;
+}
+
+@media (width >=1500px) {
+  .main {
+    width: 50%;
+    height: 50%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
 body {
   background-color: black;
+}
+
+a {
+  color: rgba(12, 204, 38, 0.001);
 }
